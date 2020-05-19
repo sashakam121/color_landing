@@ -1,0 +1,36 @@
+@mixin container {
+    display: flex;
+    align-items: center;
+
+  }
+
+  @mixin wrapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @mixin text {
+    font-size: 16px;
+    font-family: 'Raleway Light', sans-serif;
+  }
+
+
+  @mixin button {
+    display: inline-block; 
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    font-family: 'Raleway Light', sans-serif;
+    color: #fff; 
+    box-shadow: 1px 4px 7px -4px #333; 
+    text-decoration: none; 
+    cursor: pointer;
+    transition: all .1s ease-in;
+  }
+
+  @mixin title {
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 60px;
+    letter-spacing: 6px;
+  }
